@@ -1,0 +1,390 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Falcontec Refrigeração | Contato</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <img src="../img/falcontec_logo.png"
+             alt=""
+             width="300">
+
+        <h1>Contato</h1>
+
+        <p>Qualidade, agilidade e prontidão.</p>
+
+    </header>
+
+
+    <aside>
+
+        <details open>
+
+            <summary>Menu de navegação</summary>
+
+            <nav>
+
+                <ul>
+
+                    <li>
+                        <a href="inicio.html">Início</a>
+                    </li>
+
+                    <li>
+                        <a href="servicos.html">Serviços</a>
+                    </li>
+
+                    <li>
+                        <a href="equipamentos.html">Equipamentos Atendidos</a>
+                    </li>
+
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </details>
+
+    </aside>
+
+
+    <main>
+
+        <section>
+
+            <h2>Entre em contato</h2>
+
+            <p>
+                Entre em contato com a Falcontec Refrigeração
+                para solicitar informações sobre nossos serviços.
+            </p>
+
+        </section>
+
+
+        <section>
+
+            <h2>Informações de contato</h2>
+
+            <address>
+
+                <p>
+                    <strong>Endereço:</strong>
+                    Rua Pastor Rodolfo Beuttenmuller, 23
+                </p>
+
+                <p>
+                    <strong>WhatsApp:</strong>
+                    (83) 3238-7600
+                </p>
+
+                <p>
+                    <strong>E-mail:</strong>
+                    falcontec@hotmail.com
+                </p>
+
+                <p>
+                    <strong>Instagram:</strong>
+                    Falcontec.refrigeração
+                </p>
+
+            </address>
+
+        </section>
+
+
+        <section>
+
+            <h2>Horário de atendimento</h2>
+
+            <ul>
+
+                <li>
+                    Segunda a sexta:
+                    <strong>08:00 às 17:30</strong>
+                </li>
+
+                <li>
+                    Sábado:
+                    <strong>09:00 às 13:00</strong>
+                </li>
+
+                <li>
+                    Domingo:
+                    <strong>Fechado</strong>
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <section>
+
+            <h2>Solicite um atendimento</h2>
+
+            <form>
+
+                <p>
+
+                    <label for="nome">
+                        Nome:
+                    </label>
+
+                    <input type="text"
+                           id="nome"
+                           name="nome"
+                           placeholder="Digite seu nome"
+                           required>
+
+                </p>
+
+
+                <p>
+
+                    <label for="email">
+                        E-mail:
+                    </label>
+
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           placeholder="Digite seu e-mail"
+                           required>
+
+                </p>
+
+
+                <p>
+
+                    <label for="telefone">
+                        Telefone:
+                    </label>
+
+                    <input type="tel"
+                           id="telefone"
+                           name="telefone"
+                           placeholder="Digite seu telefone"
+                           required>
+
+                </p>
+
+
+                <p>
+
+                    <label for="data">
+                        Data desejada:
+                    </label>
+
+                    <input type="date"
+                           id="data"
+                           name="data"
+                           required>
+
+                </p>
+
+
+                <p>
+
+                    <label for="servico">
+                        Serviço desejado:
+                    </label>
+
+                    <input list="servicos"
+                           id="servico"
+                           name="servico"
+                           placeholder="Escolha um serviço"
+                           required>
+
+                    <datalist id="servicos">
+
+                        <option value="Reparo">
+                        <option value="Manutenção preventiva">
+                        <option value="Instalação">
+
+                    </datalist>
+
+                </p>
+
+
+                <p>
+
+                    <label for="equipamento">
+                        Equipamento:
+                    </label>
+
+                    <select id="equipamento"
+                            name="equipamento"
+                            required>
+
+                        <option value="">
+                            Selecione um equipamento
+                        </option>
+
+                        <option value="geladeira">
+                            Geladeira
+                        </option>
+
+                        <option value="freezer">
+                            Freezer
+                        </option>
+
+                        <option value="ar-condicionado">
+                            Ar-condicionado
+                        </option>
+
+                        <option value="maquina-gelo">
+                            Máquina de gelo
+                        </option>
+
+                        <option value="camara-fria">
+                            Câmara fria
+                        </option>
+
+                        <option value="balcao-frio">
+                            Balcão frio
+                        </option>
+
+                        <option value="outro">
+                            Outro
+                        </option>
+
+                    </select>
+
+                </p>
+
+
+                <p>
+
+                    <label for="urgencia">
+                        Nível de urgência:
+                    </label>
+
+                    <input type="range"
+                           id="urgencia"
+                           name="urgencia"
+                           min="1"
+                           max="10"
+                           value="5">
+
+                </p>
+
+
+                <p>
+
+                    <label for="arquivo">
+                        Foto do equipamento:
+                    </label>
+
+                    <input type="file"
+                           id="arquivo"
+                           name="arquivo">
+
+                </p>
+
+
+                <p>
+
+                    <label for="mensagem">
+                        Descreva o problema:
+                    </label>
+
+                    <br>
+
+                    <textarea id="mensagem"
+                              name="mensagem"
+                              rows="6"
+                              cols="40"
+                              placeholder="Descreva o problema do equipamento"></textarea>
+
+                </p>
+
+
+                <p>
+
+                    <input type="submit"
+                           value="Enviar solicitação">
+
+                    <input type="reset"
+                           value="Limpar">
+
+                </p>
+
+            </form>
+
+        </section>
+
+
+        <section>
+
+            <h2>Data do projeto</h2>
+
+            <p>
+                Este projeto foi desenvolvido para apresentação
+                acadêmica em
+                <time datetime="2026-09-28">28/09/2026</time>.
+            </p>
+
+        </section>
+
+
+        <section>
+
+            <h2>Antes do atendimento</h2>
+
+            <details>
+
+                <summary>O que informar?</summary>
+
+                <p>
+                    Tenha em mãos o maximo de informações sobre o equipamento,
+                    a marca e o problema apresentado para facilitar
+                    o atendimento, Falcontec agradece seu contato.
+                </p>
+
+            </details>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <hr>
+
+        <p>
+            Falcontec Refrigeração — Qualidade, agilidade e prontidão.
+        </p>
+
+        <p>
+            WhatsApp: (83) 3238-7600
+        </p>
+
+        <p>
+            Instagram: Falcontec.refrigeração
+        </p>
+
+        <p>
+            E-mail: falcontec@hotmail.com
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
+
